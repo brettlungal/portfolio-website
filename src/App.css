@@ -19,6 +19,7 @@
 
 .projects-grid{
     display: flex;
+    margin: 15px;
 }
 
 .avatar-img{
