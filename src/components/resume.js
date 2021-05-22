@@ -52,6 +52,7 @@ class Resume extends Component{
                             startYear={2017}
                             endYear={2022}
                             companyName="TC Energy"
+                            positionName="Software Developer Co-op (Work Term 3)"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to \
                             make a type specimen book."
@@ -59,15 +60,15 @@ class Resume extends Component{
                         <Experience
                             startYear={2017}
                             endYear={2022}
-                            companyName="TC Energy"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to \
-                            make a type specimen book."
+                            companyName="TC Energy - Part Time"
+                            jobDescription="● Created a system to integrate AWS services with OpenText to allow existing documents to be searched with
+                            enterprise records search tool<br></br>
+                            ● Maintained document reference analyzer to ensure client satisfaction"
                         />
                         <Experience
                             startYear={2017}
                             endYear={2022}
-                            companyName="TC Energy"
+                            companyName="TC Energy - Work Term 1&2"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to \
                             make a type specimen book."
