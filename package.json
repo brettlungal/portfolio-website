@@ -2,7 +2,7 @@
   "name": "brett-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brettlungal.com",
+  "homepage": "http://www.brettlungal.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",

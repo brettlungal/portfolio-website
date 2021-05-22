@@ -31,10 +31,6 @@ class AboutMe extends Component{
                             you can find me either in the gym, working on cars, or traveling to the coast for surfing and hiking!
                         </p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <h5>Phone</h5>
-                        <p>(204) 797-4401</p>
-                        <h5>Email</h5>
-                        <p>brettlungal@gmail.com</p>
                         <h5>Web</h5>
                         <p>www.brettlungal.com</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
