@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import selfPortait from '../img/selfPortrait.png'
+import selfPortait from '../img/brett.png'
 class LandingPage extends Component{
 
     render(){
@@ -20,7 +20,6 @@ class LandingPage extends Component{
 
                         <div className="banner-text">
                             <h1>Computer Science Co-op Student</h1>
-
                             <hr/>
                             <p>AWS | Python | Java | C | C++ | Ruby | JavaScript | React | Bash | Gremlin</p>
                             <div className="social-links">
