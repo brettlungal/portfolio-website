@@ -17,10 +17,7 @@
     text-align: center;
 }
 
-.projects-grid{
-    display: flex;
-    margin: 15px;
-}
+/* Landing Page CSS */
 
 .avatar-img{
     height: 350px;
@@ -64,4 +61,19 @@
     color:white;
     font-size: 5em;
     padding: 8px;
+}
+
+/* Projects Page css */
+
+.projects-grid{
+    display: flex;
+    margin: 15px;
+}
+
+/* Resume Page css */
+
+.resume-right-col{
+    background: #27221F;
+    color: white;
+    padding: 2em;
 }
