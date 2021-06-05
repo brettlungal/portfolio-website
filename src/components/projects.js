@@ -23,9 +23,6 @@ class Projects extends Component{
                         <CardActions border>
                             <a href="https://github.com/brettlungal/NHL-Score-Widget" target="_blank"><Button colored>Github</Button></a>
                         </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                            <IconButton size={50} name="share" />
-                        </CardMenu>
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -38,9 +35,7 @@ class Projects extends Component{
                     <CardActions border>
                         <a href="https://github.com/brettlungal/Discord-Bot" target="_blank"><Button colored>Github</Button></a>
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton size={50} name="share" />
-                    </CardMenu>
+
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -53,9 +48,7 @@ class Projects extends Component{
                     <CardActions border>
                         <a href="https://github.com/brettlungal/discord-web-scraper" target="_blank"><Button colored>Github</Button></a>
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton size={50} name="share" />
-                    </CardMenu>
+
                     </Card>
                 </div>
 
@@ -73,9 +66,7 @@ class Projects extends Component{
                     <CardActions border>
                         <a href="https://github.com/brettlungal/time-sheetv2" target="_blank"><Button colored>Github</Button></a>
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton size={50} name="share" />
-                    </CardMenu>
+
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -88,9 +79,6 @@ class Projects extends Component{
                 <CardActions border>
                     <a href="https://github.com/brettlungal/Stock-Spy" target="_blank"><Button colored>Github</Button></a>
                 </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton size={50} name="share" />
-                </CardMenu>
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -103,9 +91,6 @@ class Projects extends Component{
                 <CardActions border>
                     <a href="https://github.com/brettlungal/weBudget" target="_blank"><Button colored>Github</Button></a>
                 </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton size={50} name="share" />
-                </CardMenu>
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -118,9 +103,6 @@ class Projects extends Component{
                 <CardActions border>
                     <a href="https://github.com/COMP4020Group2/HomeMaintenanceHub" target="_blank"><Button colored>Github</Button></a>
                 </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton size={50} name="share" />
-                </CardMenu>
                 </Card>
             </div>
             )
@@ -132,14 +114,12 @@ class Projects extends Component{
                         Portfolio Website
                     </CardTitle>
                     <CardText>
-                        I created this website using React to get more experience with front-end development, as well as to teach myself the ReactJS framework. Everything was built out in a modular fashion using components.
+                        I created this website using React to get more experience with front-end development, as well as to teach myself the ReactJS framework. Everything was built out in a modular fashion using components. Website is self hosted on a sever I built and maintain myself.
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/brettlungal/portfolio-website" target="_blank"><Button colored>Github</Button></a>
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton size={50} name="share" />
-                    </CardMenu>
+
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -152,9 +132,6 @@ class Projects extends Component{
                 <CardActions border>
                     <a href="https://github.com/brettlungal/weBudget-Website" target="_blank"><Button colored>Github</Button></a>
                 </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton size={50} name="share" />
-                </CardMenu>
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '512', margin: 'auto'}}>
@@ -167,9 +144,6 @@ class Projects extends Component{
                 <CardActions border>
                     <a href="https://github.com/brettlungal/Cinema-Connect" target="_blank"><Button colored>Github</Button></a>
                 </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton size={50} name="share" />
-                </CardMenu>
                 </Card>
             </div>
             )

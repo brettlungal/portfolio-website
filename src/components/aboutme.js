@@ -23,7 +23,7 @@ class AboutMe extends Component{
                         </div>
 
                         <h2 style={{paddingTop: '2em'}}>Brett Lungal</h2>
-                        <h4 style={{color:'grey'}}>Software Developer | Freelance Developer</h4>
+                        <h4 style={{color:'grey'}}>Software Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         <p>Hello! I am a Computer Science student Co-op at the University of Manitoba. I am currently
                             in the last year of my studies and will be seeking full time employment as of May 2022. I am constantly trying to learn new things 

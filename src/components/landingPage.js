@@ -25,7 +25,7 @@ class LandingPage extends Component{
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="www.linkedin.com/in/brettlungal" target="_blank">
+                                <a href="https://www.linkedin.com/in/brettlungal" target="_blank">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
 
