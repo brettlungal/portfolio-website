@@ -31,8 +31,8 @@ class AboutMe extends Component{
                             you can find me either in the gym, working on cars, or traveling to the coast for surfing and hiking!
                         </p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <h5>Web</h5>
-                        <p>www.brettlungal.com</p>
+                        <h4>Industry Achievements</h4>
+                        <a className="hyper-link" href="https://aws.amazon.com/blogs/machine-learning/tc-energy-builds-an-intelligent-document-processing-workflow-to-process-over-20-million-images-with-amazon-ai/">AWS Machine Learning Blog  -TC Energy AI/ML Record Classification/Digitization</a>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                     </Cell>
 
@@ -58,9 +58,9 @@ class AboutMe extends Component{
                             endYear="April 2021"
                             companyName="TC Energy"
                             positionName="Software Developer (Part-Time)"
-                            jobDescription="Created a system to integrate AWS services with OpenText to allow existing documents to be searched with
+                            jobDescription='Created a system to integrate AWS services with OpenText to allow existing documents to be searched with
                             enterprise records search tool ● Maintained document reference analyzer to ensure client satisfaction ● Produce Document Reference Analyzer enhancement as
-                             requested by stakeholders."
+                             requested by stakeholders.'
                         />
                         <Experience
                             startYear="May 2020"
