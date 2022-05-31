@@ -22,18 +22,17 @@ class AboutMe extends Component{
 
                         </div>
 
-                        <h2 style={{paddingTop: '2em'}}>Brett Lungal</h2>
-                        <h4 style={{color:'grey'}}>Software Developer</h4>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <p>Hello! I am a Computer Science student Co-op at the University of Manitoba. I am currently
-                            in the last year of my studies and will be seeking full time employment as of May 2022. I am constantly trying to learn new things 
-                            and as a result I love to spend lots of time teaching myself new technolgies and playing around with new ideas. When I am not coding
-                            you can find me either in the gym, working on cars, or traveling to the coast for surfing and hiking!
+                        <h2 style={{paddingTop: '2em', color:'#FFFFFF'}}>Brett Lungal</h2>
+                        <h4 style={{color:'#B3B3B3'}}>Software Developer</h4>
+                        <hr style={{borderTop:'3px solid #e22947', width:'50%'}}/>
+                        <p style={{color:"#B3B3B3"}}>Hello! I am a Software Developer currently living in Calgary, Alberta. I graduated from the University of Manitoba with a B.Sc. in Computer Science 
+                            in May 2022. My industry experience has allowed me to gain a knowledge of both frontend and backend development, with more emphasis placed on cloud-based backend development.
+                            When I am not coding you can find me either in the mountains, the gym, working on cars, or traveling to the coast for surfing and hiking!
                         </p>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <h4>Industry Achievements</h4>
+                        <hr style={{borderTop:'3px solid #e22947', width:'50%'}}/>
+                        <h4 style={{color:"#FFFFFF"}}>Industry Achievements</h4>
                         <a className="hyper-link" href="https://aws.amazon.com/blogs/machine-learning/tc-energy-builds-an-intelligent-document-processing-workflow-to-process-over-20-million-images-with-amazon-ai/">AWS Machine Learning Blog  -TC Energy AI/ML Record Classification/Digitization</a>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <hr style={{borderTop:'3px solid #e22947', width:'50%'}}/>
                     </Cell>
 
                     <Cell className="resume-right-col" col={8}>
@@ -44,39 +43,36 @@ class AboutMe extends Component{
                             schoolName="University of Manitoba"
                             schoolDescription="B.Sc. Computer Science Major (Co-op)"
                         />
-                        <hr style={{borderTop:'3px solid #e22947'}}></hr>
+                        <hr style={{borderTop:'3px solid #e22947', marginLeft:"34%"}}></hr>
                         <h2>Experience</h2>
                         <Experience
-                            startYear="May 2020"
-                            endYear="Current"
-                            companyName="TC Energy"
-                            positionName="Software Developer Co-op (Work Term 3)"
-                            jobDescription="Work as part of dev-ops team creating software solution for mass record digitization and efficent searchability in an AWS environment utilizing ML and OCR technologies."
-                        />
-                        <Experience
-                            startYear="Jan 2021"
-                            endYear="April 2021"
-                            companyName="TC Energy"
-                            positionName="Software Developer (Part-Time)"
-                            jobDescription='Created a system to integrate AWS services with OpenText to allow existing documents to be searched with
-                            enterprise records search tool ● Maintained document reference analyzer to ensure client satisfaction ● Produce Document Reference Analyzer enhancement as
-                             requested by stakeholders.'
+                            startYear="Sept 2021"
+                            endYear="June 2022"
+                            companyName="QDoc Inc"
+                            positionName="Full-Stack Software Developer"
+                            jobDescription={["Utilize React to create accessible, user friendly functional components that use backend logic created with AWS API-Gateway, Lambda and DynamoDB",
+                                            "sometEmploy AWS Amplify for deployment of application frontend and backend resources in the cloud",
+                                            "Architect large features in project for cost effective implementation and secure backend to frontend data transfer",
+                                            "Assist in onboarding new hires by pair programming to teach coding standards and company practices",
+                                            "Build out billing system for physicians to bill for patients they see in the application",
+                                            "Attend AWS organized Amplify immersion day for a deeper understanding of AWS Amplify capabilities"
+                                        ]}
                         />
                         <Experience
                             startYear="May 2020"
-                            endYear="Jan 2021"
+                            endYear="Sept 2021"
                             companyName="TC Energy"
-                            positionName="Software Developer Co-op (Work Term 1&2)"
-                            jobDescription="Developed a document reference analyzer application in Python, NodeJS, Gremlin and SQL to map references
-                            between documents saving the company $4 million
-                            ● Explore new AWS technologies creating proof of concepts to automate manual processes
-                            ● Lead the development of various features in proof of concept projects
-                            ● Hosted product presentations for client teams to communicate development progress
-                            ● Assisted in deployment, maintenance, and feature enhancements of enterprise records search tool
-                            ● Participated in training sessions hosted by AWS to advance knowledge of AWS technologies 
-                            "
+                            positionName="Software Developer Co-op"
+                            jobDescription={["Develop business facing application utilizing AWS AI/ML services",
+                                            "Developed a document reference analyzer application in Python, NodeJS, Gremlin and SQL to map references between documents saving the company $4 million",
+                                            "Explore new AWS technologies creating proof of concepts to automate manual processes",
+                                            "Lead the development of various features in proof of concept projects",
+                                            "Hosted product presentations for client teams to communicate development progress",
+                                            "Assisted in deployment, maintenance, and feature enhancements of enterprise records search tool",
+                                            "Participated in training sessions hosted by AWS to advance knowledge of AWS technologies "
+                                        ]}
                         />
-                        <hr style={{borderTop:'3px solid #e22947'}}></hr>
+                        <hr style={{borderTop:'3px solid #e22947', marginLeft: "34%"}}></hr>
                         <h2>Skills</h2>
                         <Skills 
                             skill="Java"
@@ -92,7 +88,7 @@ class AboutMe extends Component{
                         />
                         <Skills
                             skill="React"
-                            progress={75}
+                            progress={85}
                         />
                         <Skills 
                             skill="C"
@@ -107,7 +103,7 @@ class AboutMe extends Component{
                             progress={90}
                         />
                         <Skills 
-                            skill="AWS Services"
+                            skill="AWS"
                             progress={95}
                         />
                         <Skills 

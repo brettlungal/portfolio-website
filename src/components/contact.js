@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid,Cell,Textfield} from 'react-mdl';
-import LetterIcon from '../img/lettericon.jpg'
+import LetterIcon from '../img/lettericon.png'
 import emailjs from 'emailjs-com';
 require('dotenv').config()
 
@@ -28,7 +28,7 @@ class Contact extends Component{
 
                 <Grid>
                     <Cell col={6}>
-                        <h2 style={{marginTop:'25%',marginLeft:'30%',marginBottom:'0%'}}>Contact Me!</h2>
+                        <h2 style={{marginTop:'25%',marginLeft:'30%',marginBottom:'0%', color:"#B3B3B3"}}>Contact Me!</h2>
                         <img 
                             src={LetterIcon}
                             alt="letter"

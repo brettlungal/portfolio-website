@@ -21,7 +21,7 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/" onClick={() => hideMenu()}>Brett Lungal</Link>}>
+            <Drawer style={{background:"#212121", color: "#B3B3B3"}} title={<Link style={{textDecoration:'none', color:'#FFFFFF'}} to="/" onClick={() => hideMenu()}>Brett Lungal</Link>}>
                 <Navigation>
                     <Link to="/aboutme" onClick={() => hideMenu()}>About Me</Link>
                     <Link to="/projects" onClick={() => hideMenu()}>Projects</Link>
